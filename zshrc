@@ -61,7 +61,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-remote-branch httpie command-not-found osx zsh-syntax-highlighting)
+plugins=(git git-remote-branch httpie command-not-found osx zsh-syntax-highlighting docker)
 # zsh-syntax-highlighting must be the last one
 
 source $ZSH/oh-my-zsh.sh
