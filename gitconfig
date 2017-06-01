@@ -1,0 +1,28 @@
+[user]
+	name = Steffen Gebert
+	useConfigOnly = true
+[color]
+	ui = auto
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	sa = stash
+	ca = commit --amend
+[branch]
+	autosetupmerge = true
+	autosetuprebase = remote
+[rerere]
+	enabled = true
+[push]
+	default = tracking
+[url "git@github.com:"]
+	pushInsteadOf = "https://github.com/"
+	pushInsteadOf = "git://github.com/"
+
+[diff]
+	indentHeuristic = true
+[pager]
+	show = /usr/share/doc/git/contrib/diff-highlight/diff-highlight
+	log = /usr/share/doc/git/contrib/diff-highlight/diff-highlight
+	diff = /usr/share/doc/git/contrib/diff-highlight/diff-highlight
