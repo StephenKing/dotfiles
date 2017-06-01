@@ -98,3 +98,7 @@ export LANG=en_US.UTF-8
 if [[ "$OSTYPE" == "darwin"* ]]; then
   export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 fi
+
+alias v="vagrant"
+alias vs="vagrant ssh"
+alias vu="vagrant up"
